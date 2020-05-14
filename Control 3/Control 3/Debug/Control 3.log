@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Control 3\cola.h(70,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Control 3\cola.h(66): message : al compilar la función del miembro clase plantilla "void Cola<int>::llevarAlPrincipio(unsigned int)"
+C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Control 3\main.cpp(62): message : vea la referencia a la creación de instancias de plantilla de función "void Cola<int>::llevarAlPrincipio(unsigned int)" que se está compilando
+C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Control 3\main.cpp(37): message : vea la referencia a la creación de instancias de clase plantilla "Cola<int>" que se está compilando
+C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Control 3\cola.h(76,2): warning C4018: '<': no coinciden signed/unsigned
+  Control 3.vcxproj -> C:\Users\pemag\Documents\Universidad\ED\Practicas\Control 3\Debug\Control 3.exe
