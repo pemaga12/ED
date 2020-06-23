@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Universidad\ED\Examen\Examen P1\Examen t2\lista.h(152,13): warning C4018: '<': no coinciden signed/unsigned
+D:\Universidad\ED\Examen\Examen P1\Examen t2\lista.h(145): message : al compilar la función del miembro clase plantilla "void Lista<int>::cortaPorK(unsigned int,Lista<int> &)"
+D:\Universidad\ED\Examen\Examen P1\Examen t2\main.cpp(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void Lista<int>::cortaPorK(unsigned int,Lista<int> &)" que se está compilando
+D:\Universidad\ED\Examen\Examen P1\Examen t2\main.cpp(12): message : Vea la referencia a la creación de una instancia de clase plantilla "Lista<int>" que se está compilando
+  Examen t2.vcxproj -> D:\Universidad\ED\Examen\Examen P1\Debug\Examen t2.exe

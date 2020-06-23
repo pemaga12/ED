@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Universidad\ED\ejercicios\Arboles\Ejercicio 1\Ejercicio 1\Arbin.h(174): warning C4715: 'Arbin<int>::numNodos': no todas las rutas de acceso de control devuelven un valor
+  Ejercicio 1.vcxproj -> D:\Universidad\ED\ejercicios\Arboles\Ejercicio 1\Debug\Ejercicio 1.exe

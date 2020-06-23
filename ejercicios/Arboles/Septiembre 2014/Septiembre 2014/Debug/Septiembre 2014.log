@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(88,64): error C2664: 'bool comprueba_arbol_aux(const Arbin<int> &,bool,int &)': el argumento 3 no puede convertirse de 'int' a 'int &'
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(72,6): message : vea la declaración de 'comprueba_arbol_aux'
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(99,73): error C2664: 'bool comprueba_arbol_aux(const Arbin<int> &,bool,int &)': el argumento 3 no puede convertirse de 'int' a 'int &'
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(92,6): message : vea la declaración de 'comprueba_arbol_aux'
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(100,74): error C2664: 'bool comprueba_arbol_aux(const Arbin<int> &,bool,int &)': el argumento 3 no puede convertirse de 'int' a 'int &'
+D:\Universidad\ED\ejercicios\Arboles\Septiembre 2014\Septiembre 2014\main.cpp(92,6): message : vea la declaración de 'comprueba_arbol_aux'

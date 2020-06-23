@@ -5,6 +5,11 @@
 using namespace std;
 
 unsigned int auxiliar(const Arbin<int>& a, unsigned int k, unsigned int j);
+int cuentaNodosAux(Arbin<int> a, int contador);
+bool esHoja(Arbin<int> a);
+int cuentaHojas(Arbin<int> a);
+int cuentaHojasAux(Arbin<int> a, int contador);
+
 
 /**
   COMPLEJIDAD: Explica aquí justificadamente cuál es la complejidad de 
@@ -70,6 +75,7 @@ Arbin<int> lee_arbol(istream& in) {
 
 
 
+
 /**
 La entrada al programa consiste de líneas formadas por:
 (1) Un árbol de enteros
@@ -114,6 +120,9 @@ int main() {
 		int k;
 		cin >> k;
 		cout << numero_hojas_mas_profundas_que(a,k) << endl;
+		cout << cuentaNodos(a)<< endl;
+		cout << esHoja(a) << endl;
+		cout << cuentaHojas(a) << endl;
 		string resto_linea;
 		getline(cin, resto_linea);
 	}

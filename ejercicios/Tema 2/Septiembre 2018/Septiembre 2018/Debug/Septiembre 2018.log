@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Universidad\ED\ejercicios\Tema 2\Septiembre 2018\Septiembre 2018\lista.h(77,13): warning C4018: '<': no coinciden signed/unsigned
+D:\Universidad\ED\ejercicios\Tema 2\Septiembre 2018\Septiembre 2018\lista.h(59): message : al compilar la función del miembro clase plantilla "void Lista<int>::invertir(void)"
+D:\Universidad\ED\ejercicios\Tema 2\Septiembre 2018\Septiembre 2018\main.cpp(65): message : Vea la referencia a la creación de una instancia de la función plantilla "void Lista<int>::invertir(void)" que se está compilando
+D:\Universidad\ED\ejercicios\Tema 2\Septiembre 2018\Septiembre 2018\main.cpp(61): message : Vea la referencia a la creación de una instancia de clase plantilla "Lista<int>" que se está compilando
+  Septiembre 2018.vcxproj -> D:\Universidad\ED\ejercicios\Tema 2\Septiembre 2018\Debug\Septiembre 2018.exe

@@ -29,7 +29,7 @@ Las operaciones son:
 constructor sin parámetros.
 - pon: Cola, Elem -> Cola. Generadora
 - quita: Cola - -> Cola. Modificadora parcial.
-- primero: Cola - -> Elem. Observadora parcial.
+- 	: Cola - -> Elem. Observadora parcial.
 - esVacia: Cola -> Bool. Observadora.
 
 @author Mercedes Gómez Albarrán
