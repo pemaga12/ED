@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Creacion de TADs\TAD Hoteles\TAD Hoteles\hoteles.h(25,13): error C2760: error de sintaxis: token inesperado "identificador", se esperaba ";"
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Creacion de TADs\TAD Hoteles\TAD Hoteles\hoteles.h(54): message : Vea la referencia a la creación de una instancia de clase plantilla "Hoteles<tCliente,tHotel>" que se está compilando
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Creacion de TADs\TAD Hoteles\TAD Hoteles\hoteles.h(25,3): error C7510: "Iterator": el uso del nombre tipo dependiente debe tener como prefijo "typename"

@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Diccionarios\Ejercicio 6\Ejercicio 6\DiccionarioHash.h(349,24): error C2039: "h": no es un miembro de "`global namespace'"
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Diccionarios\Ejercicio 6\Ejercicio 6\DiccionarioHash.h(347): message : al compilar la función del miembro clase plantilla "DiccionarioHash<std::string,int>::Iterator DiccionarioHash<std::string,int>::busca(const tClave &)"
+          with
+          [
+              tClave=std::string
+          ]
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Diccionarios\Ejercicio 6\Ejercicio 6\Source.cpp(42): message : Vea la referencia a la creación de una instancia de la función plantilla "DiccionarioHash<std::string,int>::Iterator DiccionarioHash<std::string,int>::busca(const tClave &)" que se está compilando
+          with
+          [
+              tClave=std::string
+          ]
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Diccionarios\Ejercicio 6\Ejercicio 6\Source.cpp(14): message : Vea la referencia a la creación de una instancia de clase plantilla "DiccionarioHash<std::string,int>" que se está compilando
+C:\Users\pemag\Documents\Universidad\ED\ejercicios\Diccionarios\Ejercicio 6\Ejercicio 6\DiccionarioHash.h(349,1): error C3861: 'h': no se encontró el identificador
