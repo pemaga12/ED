@@ -31,7 +31,7 @@ class Cuenca {
 private:
 	
 	using infoPantano = DiccionarioHash<string, info_pantano>;				//Informacion de los pantanos
-	DiccionarioHash<string, infoPantano> _rios;								//Información de cada cuenca
+	DiccionarioHash<string, DiccionarioHash<string, info_pantano>> _rios;								//Información de cada cuenca
 public:
 
 	Cuenca();
@@ -40,11 +40,11 @@ public:
 
 	void insertar_rio(const string& r) ;
 
-	void insertar_pantano(const string& r, const string& p, const int& p1, const int& p2);
+	void insertar_pantano(const string& r, const string& p, const float& n1, const float& n2);
 
 	void embalsar(string r, string p, float n);
 
-	float embalsado_pantano(string r, string p) const;
+	float embalsado_pantano(const string& r,const string& p) const;
 
 	float embalsado_cuenca(string r) const;
 
