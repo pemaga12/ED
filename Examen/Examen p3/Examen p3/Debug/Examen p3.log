@@ -1,0 +1,18 @@
+﻿  GestionDeMatriculas.cpp
+D:\Universidad\ED\Examen\Examen p3\Examen p3\diccionario.h(153,14): error C2280: 'DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator &DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator::operator =(const DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator &)': se está intentando hacer referencia a una función eliminada.
+D:\Universidad\ED\Examen\Examen p3\Examen p3\DiccionarioHash.h(318): message : el compilador generó 'DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator::operator =' aquí
+D:\Universidad\ED\Examen\Examen p3\Examen p3\DiccionarioHash.h(318,1): message : "DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator &DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator::operator =(const DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator &)": la función se eliminó implícitamente porque "DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator" tiene un miembro de datos "DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator::_tabla" de tipo de referencia.
+D:\Universidad\ED\Examen\Examen p3\Examen p3\DiccionarioHash.h(315): message : vea la declaración de 'DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator::_tabla'
+D:\Universidad\ED\Examen\Examen p3\Examen p3\diccionario.h(147): message : al compilar la función del miembro clase plantilla "Diccionario<tEstudiante,DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator>::Nodo *Diccionario<tEstudiante,DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator>::insertaAux(const tClave &,const tValor &,Diccionario<tClave,tValor>::Nodo *)"
+          with
+          [
+              tClave=tEstudiante,
+              tValor=DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator
+          ]
+D:\Universidad\ED\Examen\Examen p3\Examen p3\diccionario.h(352): message : Vea la referencia a la creación de una instancia de la función plantilla "Diccionario<tEstudiante,DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator>::Nodo *Diccionario<tEstudiante,DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator>::insertaAux(const tClave &,const tValor &,Diccionario<tClave,tValor>::Nodo *)" que se está compilando
+          with
+          [
+              tClave=tEstudiante,
+              tValor=DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator
+          ]
+D:\Universidad\ED\Examen\Examen p3\Examen p3\GestionDeMatriculas.h(62): message : Vea la referencia a la creación de una instancia de clase plantilla "Diccionario<tEstudiante,DiccionarioHash<tEstudiante,DatosEstudiante>::Iterator>" que se está compilando
